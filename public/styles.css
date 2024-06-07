@@ -120,10 +120,11 @@ img{
     .navBar{
         font-weight: 50;
         text-align: center;
+        font-family: 'Times New Roman', Times, serif;
     }
     .me-2{
       position: relative;
-      left: 85%;
+      
     }
    .cardMargin {
     box-shadow: none;
