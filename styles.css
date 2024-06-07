@@ -1,0 +1,140 @@
+
+
+body{
+    text-align: center;
+    padding: 3% 7%;
+    background-color: #f7f7f7;
+    background-image: url(images/black-thread-light.png) ;
+}    
+img{
+    height: 35em;
+   
+    width: 30em;
+}
+
+.photoHeader{
+    text-align: center;
+   padding: 2%;
+   
+   color:#743e04;
+   font-weight: bold;
+   margin: 1% 1.5%;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+
+}
+#services{
+   
+    background-image: url(images/veryNew.jpg);
+    color: #743e04;
+    
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style:italic;
+    text-align: left;
+    padding: 0 1% 1%;
+    padding-bottom: 16%;
+    box-shadow: 10px 10px 10px #826c64,5px 5px 5px #593f3f;
+}
+#services h5{
+    line-height: 2;
+}
+#services ul{
+    font-family: "Italianno", cursive;
+  font-weight:700;
+  font-size:x-large;
+  font-style: normal;
+  text-align: center;
+  list-style: none;
+}
+#services h4{
+    padding-top: 1.5%;
+    padding-left: 2%;
+}
+.sampleImage{
+    text-align: center;
+   background-color: #bcaaa4;
+     box-shadow: 10px 10px 10px #1d1716,5px 5px 5px #efafaf;
+}
+.cards{
+   padding: 5%;
+   
+    height: 25em;
+    width: 1em;
+    
+}
+.cardTitle{
+    text-align: center;
+    color: #743e04;
+    background-color: #bcaaa4;
+}
+.cardMargin{
+    margin:  1% 1.5%;
+     box-shadow: 10px 10px 10px #999897,5px 5px 5px #c4adad;
+}
+.footer{
+    background-color: #bcaaa4;
+    color: #743e04;
+    padding: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+.iconColor{
+    color: #743e04;
+    margin: 1%;
+}
+.iconColor:hover{
+    color: #110b0b;
+}
+.links{
+    padding: 3%;
+}
+.navBar{
+    
+    font-family: Fugaz One;
+     font-weight: 400;
+     font-style: normal;
+}
+.rob{
+     position: relative;
+    left:38%;
+    
+}
+.developer{
+    color:#743e04 ;
+    text-decoration: none;
+   
+}
+.developer:hover{
+    color:#110b0b
+}
+
+@media (max-width:570px) {
+    #services{
+        box-shadow: none;
+        text-align: center;
+        
+        
+    }
+    .navBar{
+        font-weight: 50;
+        text-align: center;
+    }
+    .me-2{
+      position: relative;
+      left: 85%;
+    }
+   .cardMargin {
+    box-shadow: none;
+   }
+   .sampleImage{
+    box-shadow: none;
+   }
+  
+    
+    
+}
+
+
+
