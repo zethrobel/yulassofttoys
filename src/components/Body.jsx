@@ -16,7 +16,7 @@ function Body(props){
         
         
         
-        <h3 className="photoHeader">Top Selled Toys</h3>
+        <h3 className="photoHeader">Most Sold Toys</h3>
          <div id="main">
            <MainPhoto />
          </div>
